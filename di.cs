@@ -18,12 +18,13 @@ class Program {
 		long curSize = 0;
 
 		foreach (FileInfo fi in dirInfo.GetFiles()) {
+			//Console.WriteLine("{0}: {1}", fi.Length, fi.Name);
 			size += fi.Length;
 		}
 
 		foreach (DirectoryInfo di in dirInfo.GetDirectories()) {
 			curSize = GetDirectorySize(di);
-			Console.WriteLine("{0}: {1}", curSize, di.Name);
+			Console.WriteLine("{0}: {1}", curSize, di.FullName);
 			size += curSize;
 		}
 		return size;
