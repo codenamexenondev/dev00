@@ -7,7 +7,6 @@ namespace simple
 		static void Main(string[] args)
 		{
 			System.Console.WriteLine("test");
-			System.Console.WriteLine("test2");
 		}
 	}
 }
