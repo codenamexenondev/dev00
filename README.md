@@ -1,6 +1,7 @@
 # dev00
 
-test 
+test
+test2
 add csgrep
 
 Usage csgrep.exe filename expression
